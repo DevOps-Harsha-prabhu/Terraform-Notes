@@ -1,8 +1,14 @@
-output "vpc_id1" {
+output "vpc_id_1" {
     value = "${aws_vpc.vpc1.id}"
   
 }
-output "vpc_arn1" {
-    value = "${aws_vpc.vpc1.arn}"
+
+output "subnet_id_1" {
+    value = "${aws_vpc.vpc1.id}"
+  
+}
+
+output "sg_id_1" {
+    value = "${aws_vpc.vpc1.id}"
   
 }
