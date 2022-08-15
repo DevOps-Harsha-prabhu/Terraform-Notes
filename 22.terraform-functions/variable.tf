@@ -7,4 +7,7 @@ variable "service_ports" {}
 variable "key_name" {}
 variable "azs" {}
 variable "environment" {}
+variable "amis" {}
+variable "instance_type" {}
+
 

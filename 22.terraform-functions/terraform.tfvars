@@ -7,3 +7,9 @@ vpc_name           = "DevOps-Functions"
 key_name           = "terraform-key"
 azs                = ["us-east-1a", "us-east-1b", "us-east-1c"]
 environment        = "prod"
+instance_type      = "t2.nano"
+amis = {
+  us-east-1 = "ami-052efd3df9dad4825" # ubuntu 22.04 LTS
+  us-east-2 = "ami-02f3416038bdb17fb" # ubuntu 22.04 LTS
+
+}      
